@@ -6,6 +6,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
   background-color: var(--light-grayish-blue);
   line-height: 1.5;
   font-family: "Barlow Semi Condensed", sans-serif;
@@ -24,10 +25,14 @@ p {
 }
 /* Container */
 .container {
+  background-color: var(--white);
   justify-content: center;
   align-items: center;
   display: flex;
   margin: 3rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  padding: 5rem;
 }
 @media screen and (min-width: 768px) {
   .container {
@@ -50,6 +55,7 @@ p {
 .box {
   border-radius: 10px;
   padding: 3rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 /* Box One */
 .box--one {

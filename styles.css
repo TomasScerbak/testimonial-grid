@@ -59,6 +59,8 @@ p {
 }
 /* Box One */
 .box--one {
+  position: relative;
+  z-index: 0;
   background-color: var(--moderate-violet);
   color: var(--white);
 }
@@ -66,6 +68,12 @@ p {
   .box--one {
     grid-column: 1 / 3;
   }
+}
+.quote--image {
+  position: absolute;
+  right: 15%;
+  top: 10%;
+  z-index: -1;
 }
 /* Box Two */
 .box--two {
